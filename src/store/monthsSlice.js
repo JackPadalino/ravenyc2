@@ -1,12 +1,12 @@
 const { createSlice } = require("@reduxjs/toolkit");
 
 const initialState = {
-    monthsList: [
-        'January',
-        'Feburary',
-        'March'
-    ]
-    // monthsList:[]
+    // monthsList: [
+    //     'January',
+    //     'Feburary',
+    //     'March'
+    // ]
+    monthsList:[]
 };
 
 export const monthsSlice = createSlice({
