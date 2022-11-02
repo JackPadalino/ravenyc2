@@ -30,8 +30,8 @@ const Month = () => {
                 <div>
                     {
                         months.map(month => {
-                            // return <p key={month.id}>{month.date}</p>
-                            return <p>{month}</p>
+                            return <p key={month.id}>{month.date}</p>
+                            //return <p>{month}</p>
                         })
                     }
                 </div>
