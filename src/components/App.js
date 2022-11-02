@@ -3,7 +3,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import {
     Month,
     HomePage
-} from '.';
+} from './';
 
 function App() {
     return (
