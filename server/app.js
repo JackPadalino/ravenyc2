@@ -10,7 +10,7 @@ app.use(express.static(__dirname + '/public'));
 //app.use(methodOverride('_method'));
 app.use(express.json());
 app.use(volleyball);
-app.use('/',appRouter);
+app.use('/ravenyc',appRouter);
 
 // // might need to use this to redirect to current month's page
 // app.get("/", (req, res) => {

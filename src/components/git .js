@@ -12,7 +12,7 @@ const Month = () => {
     const [loading,setLoading] = useState(true);
 
     const getMonths = async () => {
-        const months = await axios.get("/months");
+        const months = await axios.get("/ravenyc/months");
         dispatch(setMonthsList(months.data));
         setLoading(false);
     };
